@@ -1,0 +1,28 @@
+body {
+    border-style: solid;
+    border-width: 2px;
+}
+
+#submitBtn {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+#total {
+    text-align: right;
+}
+
+td {
+    border-style: solid;
+    border-width: 1px;
+}
+
+th {
+    border-style: solid;
+    border-width: 1px;
+}
+
+#tableHead {
+    border-bolor: black;
+    border-width: 4px;
+}

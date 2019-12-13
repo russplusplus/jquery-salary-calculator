@@ -1,13 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    
+    <script src="jquery.js"></script>
+    <script src="client.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
 <body>
-    
+    <header>
+        <h1 class="jumbotron">Salary Calculator</h1>
+    </header>
+
+    <body class="container">
+        <h2 id="inputHeader">Add Employee</h2>
+        <input class="inputBox" id="firstNameInput" placeholder="First Name">
+        <input class="inputBox" id="lastNameInput" placeholder="Last Name">
+        <input class="inputBox" id="idInput" placeholder="ID">
+        <input class="inputBox" id="titleInput" placeholder="Title">
+        <input class="inputBox" id="annualSalaryInput" placeholder="Annual Salary">
+        <br>
+        <button class="btn btn-primary" id="submitBtn">Submit</button>
+        <h2>Employees</h2>
+        <table class="table table-striped" id="wholeEmployeeTable">
+            <thead>
+                <tr id="tableHead">
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>ID</th>
+                    <th>Title</th>
+                    <th>Annual Salary</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="employeeTable">
+            </tbody>
+        </table>
+        <h2 id="total">Total Monthly: $0</h2>
+
+
+    </body>
+
 </body>
+
 </html>
