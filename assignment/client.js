@@ -49,6 +49,12 @@ function handleSubmit(){
         $('#total').append(`<div id="redTotal">Total Monthly: $${totalMonthlySalary}</div>`)
     }
 
+    // clear input fields
+    $('#firstNameInput').val('');
+    $('#lastNameInput').val('');
+    $('#idInput').val('');
+    $('#titleInput').val('');
+    $('#annualSalaryInput').val('');
 }
 
 function deleteEntry(){
