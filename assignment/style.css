@@ -12,6 +12,10 @@ body {
     text-align: right;
 }
 
+#redTotal {
+    background-color: red;
+}
+
 td {
     border-style: solid;
     border-width: 1px;

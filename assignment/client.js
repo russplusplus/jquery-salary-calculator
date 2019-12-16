@@ -37,13 +37,24 @@ function handleSubmit(){
     
     employees++;
     totalSalary += Number(annualSalary);
-    console.log(employees);
     console.log(totalSalary);
     $('#total').empty();
-    $('#total').append(`Total Monthly: $${totalSalary/12}`);
+    let totalMonthlySalary = round(totalSalary/12,2);
+    console.log(totalMonthlySalary);
+    
+    if (totalMonthlySalary <= 20000){
+        $('#total').append(`Total Monthly: $${totalMonthlySalary}`);
+    }
+    else if (totalMonthlySalary > 20000){
+        $('#total').append(`<div id="redTotal">Total Monthly: $${totalMonthlySalary}</div>`)
+    }
 
 }
 
 function deleteEntry(){
     $(this).closest('tr').remove();
+}
+
+function round(value, decimals) {
+    return Number(Math.round(value+'e'+decimals)+'e-'+decimals);
 }
