@@ -6,10 +6,8 @@
 
 The application has an input form that collects employee first name, last name, ID number, job title, annual salary.
 
-A 'Submit' button collects the form information, stores the information to calculate monthly costs, appends information to the DOM and clears the input fields. Using the stored information, calculate monthly costs and append this to the to DOM. If the total monthly cost exceeds $20,000, add a red background color to the total monthly cost.
+A 'Submit' button collects the form information, stores the information to calculate monthly costs, appends information to the DOM, and clears the input fields. Using the stored information, monthly costs are calculated and appended to the DOM. If the total monthly cost exceeds $20,000, a red background color is added to the total monthly cost.
 
-Create a delete button that removes an employee from the DOM. For Base mode, it does not need to remove that Employee's salary from the reported total.
-
-Your project description goes here. What problem did you solve? How did you solve it?
+A delete button removes an employee from the DOM. It does not remove that Employee's salary from the reported total.
 
 Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
