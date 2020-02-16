@@ -1,6 +1,6 @@
 # JQuery Salary Calculator
 
-[Project Instructions](./INSTRUCTIONS.md), this line may be removed once you have updated the README.md
+This assignment gave us practice using JQuery to manipulate the DOM and perform calculations behind the scenes.
 
 ## Description
 
@@ -10,4 +10,6 @@ A 'Submit' button collects the form information, stores the information to calcu
 
 A delete button removes an employee from the DOM. It does not remove that Employee's salary from the reported total.
 
-Additional README details can be found [here](https://github.com/PrimeAcademy/github-finalization-assignment).
+## Technologies Used
+
+HTML, CSS, Bootstrap, Javascript, JQuery
